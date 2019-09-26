@@ -1,0 +1,13 @@
+Path cost: 22
+C00
+C11
+C22
+C32
+C42
+C33
+C43
+C34
+C44
+The total number of nodes created: 230.
+The biggest size of the frontier list grew to: 114.
+The biggest size of the explored list grew to: 120.

@@ -1,0 +1,53 @@
+Script started on Wed Sep 26 00:26:05 2018
+[?1034hbash-3.2$ python puzzlesolver.py config/test_jugs.config bfs
+Begin solving jugs puzzle by bfs...
+Solution path is written in the output file.
+Running time: 0.0013301372528076172s
+bash-3.2$ python puzzlesolver.py config/test_jugs.config dfs
+Begin solving jugs puzzle by dfs...
+Solution path is written in the output file.
+Running time: 0.0011551380157470703s
+bash-3.2$ python puzzlesolver.py config/test_jugs.config greedy --heuristic_func tion sum
+Begin solving jugs puzzle by greedy with sum...
+Solution path is written in the output file.
+Running time: 0.003893136978149414s
+bash-3.2$ python puzzlesolver.py config/test_cities.config unicost
+Begin solving cities puzzle by unicost...
+Solution path is written in the output file.
+Running time: 0.003304004669189453s
+bash-3.2$ python puzzlesolver.py config/test_cities.config greedy --heuristic_fu nction sld
+Begin solving cities puzzle by greedy with sld...
+Solution path is written in the output file.
+Running time: 0.003392934799194336s
+bash-3.2$ python puzzlesolver.py config/test_cities.config astar --heuristic_fun ction sld
+Begin solving cities puzzle by astar with sld...
+Solution path is written in the output file.
+Running time: 0.004286289215087891s
+bash-3.2$ python puzzlesolver.py config/test_pancakes1.config iddfs
+Begin solving pancakes puzzle by iddfs...
+^Z
+[1]+  Stopped                 python puzzlesolver.py config/test_pancakes1.config iddfs
+bash-3.2$ python puzzlesolver.py config/test_pancakes2.config iddfs
+Begin solving pancakes puzzle by iddfs...
+^Z
+[2]+  Stopped                 python puzzlesolver.py config/test_pancakes2.config iddfs
+bash-3.2$ python puzzlesolver.py config/test_pancakes1.config astar --heuristic_ function bp
+Begin solving pancakes puzzle by astar with bp...
+Solution path is written in the output file.
+Running time: 7.386737108230591s
+bash-3.2$ python puzzlesolver.py config/test_pancakes2.config astar --heuristic_ function bp
+Begin solving pancakes puzzle by astar with bp...
+^Z
+[3]+  Stopped                 python puzzlesolver.py config/test_pancakes2.config astar --heuristic_function bp
+bash-3.2$ python puzzlesolver.py config/test_pancakes1.config idastar --heuristi c_function bp
+Begin solving pancakes puzzle by idastar with bp...
+Solution path is written in the output file.
+Running time: 4.903555154800415s
+bash-3.2$ python puzzlesolver.py config/test_pancakes2.config idastar --heuristi c_function bp
+Begin solving pancakes puzzle by idastar with bp...
+^Z
+[4]+  Stopped                 python puzzlesolver.py config/test_pancakes2.config idastar --heuristic_function bp
+bash-3.2$ exit
+There are stopped jobs.
+bash-3.2$ exit
+

@@ -1,0 +1,14 @@
+Path cost: 10
+(0, 0)
+(0, 11)
+(4, 7)
+(4, 11)
+(4, 0)
+(0, 4)
+(4, 4)
+(0, 8)
+(4, 8)
+(1, 11)
+(1, 0)
+The total number of nodes created: 14.
+The biggest size of the frontier list grew to: 5.
