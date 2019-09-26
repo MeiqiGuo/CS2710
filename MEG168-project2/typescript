@@ -1,0 +1,126 @@
+Script started on Tue Oct  9 14:51:36 2018
+[?1034hbash-3.2$ python minimax_a_b.py test_tree1
+Begin searching game tree by vanilla minimax algorithm...
+Visited state: A.
+Visited state: B.
+Visited state: D.
+Visited state: H.
+Visited state: I.
+Visited state: E.
+Visited state: J.
+Visited state: K.
+Visited state: C.
+Visited state: F.
+Visited state: L.
+Visited state: M.
+Visited state: G.
+Visited state: N.
+Visited state: O.
+Final utility is 6.
+ Action is to go to state B.
+
+Begin searching game tree by alpha-beta search algorithm...
+Visited state: A.
+Visited state: B.
+Visited state: D.
+Visited state: H.
+Visited state: I.
+Visited state: E.
+Visited state: J.
+Visited state: K.
+Visited state: C.
+Visited state: F.
+Visited state: L.
+Visited state: M.
+Final utility is 6.
+ Action is to go to state B.
+
+bash-3.2$ python minimax_a_b.py test_tree3[K2
+Begin searching game tree by vanilla minimax algorithm...
+Visited state: A.
+Visited state: B.
+Visited state: D.
+Visited state: H.
+Visited state: I.
+Visited state: E.
+Visited state: J.
+Visited state: K.
+Visited state: C.
+Visited state: F.
+Visited state: L.
+Visited state: M.
+Visited state: G.
+Visited state: N.
+Visited state: O.
+Final utility is 6.
+ Action is to go to state B.
+
+Begin searching game tree by alpha-beta search algorithm...
+Visited state: A.
+Visited state: B.
+Visited state: D.
+Visited state: H.
+Visited state: I.
+Visited state: E.
+Visited state: J.
+Visited state: C.
+Visited state: F.
+Visited state: L.
+Visited state: M.
+Final utility is 6.
+ Action is to go to state B.
+
+bash-3.2$ python minimax_a_b.py test_tree3
+Begin searching game tree by vanilla minimax algorithm...
+Visited state: A.
+Visited state: B.
+Visited state: E.
+Visited state: L.
+Visited state: M.
+Visited state: F.
+Visited state: N.
+Visited state: O.
+Visited state: G.
+Visited state: P.
+Visited state: Q.
+Visited state: C.
+Visited state: H.
+Visited state: R.
+Visited state: S.
+Visited state: I.
+Visited state: T.
+Visited state: U.
+Visited state: D.
+Visited state: J.
+Visited state: V.
+Visited state: W.
+Visited state: K.
+Visited state: X.
+Visited state: Y.
+Final utility is 3.
+ Action is to go to state B.
+
+Begin searching game tree by alpha-beta search algorithm...
+Visited state: A.
+Visited state: B.
+Visited state: E.
+Visited state: L.
+Visited state: M.
+Visited state: F.
+Visited state: N.
+Visited state: G.
+Visited state: P.
+Visited state: C.
+Visited state: H.
+Visited state: R.
+Visited state: S.
+Visited state: D.
+Visited state: J.
+Visited state: V.
+Visited state: W.
+Final utility is 3.
+ Action is to go to state B.
+
+bash-3.2$ exit
+
+Script done on Tue Oct  9 14:52:00 2018
