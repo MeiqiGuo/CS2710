@@ -1,5 +1,5 @@
 # CS2710
-Projects on the course CS2710 Foundation of AI
+Projects for the course CS2710 Foundation of Artificial Intelligence
 
 Project 1: implementation of search algorithms (BFS, DFS, IDDFS, UniCost, Greedy, A* and IDA*) for solving puzzles (Jugs, Path-Planning, Burnt Pancakes).
 
